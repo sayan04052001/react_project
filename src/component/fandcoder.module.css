@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 72px;
+    width: 95%;
+    background-color: aqua;
+    border: 1px solid rgb(112, 89, 89);
+    display: flex;
+    justify-content: center;
+
+}
+#nav>article{
+    height: 70px;
+    width: 100%; 
+    display: flex;
+    
+}
+#nav>article>.logo{
+    height: 100%;
+    width: 30%;
+    /* background-color: blueviolet; */
+}
+#nav>article>.menu{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(37, 50, 65);
+}
+#nav>article>.but{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(91, 240, 27);
+}
+#logoblock{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#logoblock>p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    margin-left: 10px;
+    color: rgb(45,136,226);
+    
+}
